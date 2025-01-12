@@ -1,0 +1,1 @@
+7b66233059d1cc7bea8f1fb7d590d9953de5b860d17f25a92a4edef66dccc7d8  arm64/curl-config
