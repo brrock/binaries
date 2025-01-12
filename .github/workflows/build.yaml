@@ -19,16 +19,17 @@ jobs:
         chmod +x ./all.sh
         ./all.sh
 
+    - name: Debug Git status
+      run: git status
+
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add --force .
         if [ -n "$(git status --porcelain)" ]; then
-          git add -A
           git commit -m "Rebuild binaries"
           git push
         else
           echo "No changes to commit"
         fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
