@@ -52,7 +52,7 @@ git checkout $(git describe --tags $(git rev-list --tags --max-count=1)) # Check
 # Configure build options
 echo "Configuring build for $ARCH..."
 BUILD_ARCH=$([[ "$ARCH" == "amd64" ]] && echo "x86_64" || echo "aarch64")
-autoreconf -fi
+./bootstrap
 ./configure --prefix="$PREFIX_DIR" \
             --host="$BUILD_ARCH-linux-gnu" \
             --with-ssl=openssl \
