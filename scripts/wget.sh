@@ -35,9 +35,9 @@ fi
 echo "Installing dependencies..."
 if [[ -x "$(command -v apt)" ]]; then
     sudo apt update
-    sudo apt install -y build-essential autoconf libtool pkg-config zlib1g-dev libssl-dev libpcre3-dev
+    sudo apt install -y build-essential autoconf libtool pkg-config autoconf-archive zlib1g-dev libssl-dev libpcre3-dev
 elif [[ -x "$(command -v pacman)" ]]; then
-    sudo pacman -Syu --noconfirm base-devel autoconf libtool zlib openssl pcre
+    sudo pacman -Syu --noconfirm base-devel autoconf autoconf-archive  libtool zlib openssl pcre
 else
     echo "Unsupported package manager. Install build tools and dependencies manually."
     exit 1
