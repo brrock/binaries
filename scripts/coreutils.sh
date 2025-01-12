@@ -35,9 +35,9 @@ fi
 echo "Installing dependencies..."
 if [[ -x "$(command -v apt)" ]]; then
     sudo apt update
-    sudo apt install -y build-essential autoconf libtool pkg-config
+    sudo apt install -y build-essential autoconf libtool pkg-config gettext autopoint  wget gperf texinfo
 elif [[ -x "$(command -v pacman)" ]]; then
-    sudo pacman -Syu --noconfirm base-devel autoconf libtool
+    sudo pacman -Syu --noconfirm base-devel autoconf libtool gettext autopoint wget gperf texinfo
 else
     echo "Unsupported package manager. Install build tools and dependencies manually."
     exit 1
@@ -51,6 +51,7 @@ git checkout $(git describe --tags $(git rev-list --tags --max-count=1)) # Check
 
 # Configure build options
 echo "Configuring build for $ARCH..."
+./bootstrap
 BUILD_ARCH=$([[ "$ARCH" == "amd64" ]] && echo "x86_64" || echo "aarch64")
 ./configure --prefix="$PREFIX_DIR" \
             --host="$BUILD_ARCH-linux-gnu" \

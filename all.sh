@@ -1,8 +1,8 @@
 #!/bin/bash
-
+set -e
 # Script to run all .sh files in the 'scripts' folder with and without 'arm64' argument
-mkdir arm64
-mkdir amd64
+# Create directories if they don't exist
+mkdir -p amd64 arm64
 for script in scripts/*.sh; do
     if [[ -f "$script" ]]; then
         # Run the script with no arguments
