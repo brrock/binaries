@@ -67,4 +67,4 @@ make install
 # Final message
 echo "Bash built successfully for $ARCH!"
 echo "Binaries are located in $INSTALL_DIR/"
-cp $PREFIX_DIR/bin/ * $INSTALL_DIR
+cp $PREFIX_DIR/bin/* $INSTALL_DIR
