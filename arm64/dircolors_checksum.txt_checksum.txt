@@ -1,0 +1,1 @@
+1989c3c66a42d6fd3feab797be351dfc2cb822b27ddb190e26aff02b37e37f59  arm64/dircolors_checksum.txt

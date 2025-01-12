@@ -1,0 +1,1 @@
+fa70411fb7d32bb39b96846e2d7be6d08d2fb6ede30fdeec44cba4efcb8af832  amd64/nice_checksum.txt

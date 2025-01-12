@@ -1,0 +1,1 @@
+c3a9f0d54fb2c1b285dab894167ed9f834f96e88c37049db3734836be7cd70c6  arm64/tee_checksum.txt

@@ -1,0 +1,1 @@
+5ca47f372d395b78a24d273b35b639b69364ed3f18e205b9edf1f6e60eb9bddf  amd64/stty_checksum.txt

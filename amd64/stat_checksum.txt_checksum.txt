@@ -1,0 +1,1 @@
+4378d58d80f8e3929c0fe30f7b09d75eb054045e965f2e3f5c8de70b03a096fd  amd64/stat_checksum.txt
