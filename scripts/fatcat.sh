@@ -60,7 +60,7 @@ cmake "$SRC_DIR" -DCMAKE_INSTALL_PREFIX="$PREFIX_DIR" -DCMAKE_BUILD_TYPE=Release
 
 # Compile and install
 echo "Building Fatcat for $ARCH..."
-make  --j$(nproc)
+make  -j$(nproc)
 make install
 
 # Final message
