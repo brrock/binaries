@@ -1,0 +1,1 @@
+268bc68a720a87aca9296f4bebd51c45f9861a026bd7209efacb0cc87b0e7c2f  amd64/curl-config

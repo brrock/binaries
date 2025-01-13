@@ -83,7 +83,7 @@ while test "$#" -gt 0; do
     ;;
 
   --feature|--features)
-    for feature in alt-svc AsynchDNS HSTS HTTPS-proxy IPv6 Largefile libz NTLM PSL SSL threadsafe TLS-SRP UnixSockets ''; do
+    for feature in alt-svc AsynchDNS HSTS HTTPS-proxy IPv6 Largefile libz NTLM PSL SSL threadsafe TLS-SRP UnixSockets zstd ''; do
       test -n "$feature" && echo "$feature"
     done
     ;;
@@ -161,7 +161,7 @@ while test "$#" -gt 0; do
       CURLLIBDIR=''
     fi
     if test 'Xno' = 'Xno'; then
-      echo "${CURLLIBDIR}-lcurl -lpsl -lssl -lcrypto -lssl -lcrypto -lz"
+      echo "${CURLLIBDIR}-lcurl -lpsl -lssl -lcrypto -lssl -lcrypto -lzstd -lz"
     else
       echo "${CURLLIBDIR}-lcurl"
     fi
@@ -173,7 +173,7 @@ while test "$#" -gt 0; do
 
   --static-libs)
     if test 'Xyes' != 'Xno'; then
-      echo "${exec_prefix}/lib/libcurl.a  -lpsl -lssl -lcrypto -lssl -lcrypto -lz"
+      echo "${exec_prefix}/lib/libcurl.a  -lpsl -lssl -lcrypto -lssl -lcrypto -lzstd -lz"
     else
       echo 'curl was built with static libraries disabled' >&2
       exit 1
@@ -181,7 +181,7 @@ while test "$#" -gt 0; do
     ;;
 
   --configure)
-    echo " '--prefix=/tmp/build-curl/build' '--host=x86_64-linux-gnu' '--with-ssl' '--disable-shared' '--enable-static' '--disable-debug' '--disable-dependency-tracking' 'host_alias=x86_64-linux-gnu'"
+    echo " '--prefix=/tmp/build-curl/build' '--host=x86_64-linux-gnu' '--with-ssl' '--disable-shared' '--disable-libpsl' '--enable-static' '--disable-debug' '--disable-dependency-tracking' 'host_alias=x86_64-linux-gnu'"
     ;;
 
   *)
