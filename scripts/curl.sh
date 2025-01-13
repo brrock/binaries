@@ -57,6 +57,7 @@ autoreconf -fi
       --host="$BUILD_ARCH-linux-gnu" \
       --with-ssl \
       --disable-shared \
+      --disable-libpsl \
       --enable-static \
       --disable-debug \
       --disable-dependency-tracking
