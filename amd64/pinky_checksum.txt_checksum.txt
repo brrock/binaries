@@ -1,1 +1,0 @@
-84841e63f05a32cde4a7f7347cf288de4e368af8dfd4c967554d0dbdc7093cea  amd64/pinky_checksum.txt

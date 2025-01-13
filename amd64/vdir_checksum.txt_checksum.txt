@@ -1,1 +1,0 @@
-01e5148144044d4c0b4f55d67ebb86ce08d25ec3d3ef9b4915e217f6f21d2af2  amd64/vdir_checksum.txt

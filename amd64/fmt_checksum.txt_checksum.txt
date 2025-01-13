@@ -1,1 +1,0 @@
-5d7df711d23040fc0283a454dee65307dcab1fdbcdc1146dbecc59cc3970b713  amd64/fmt_checksum.txt

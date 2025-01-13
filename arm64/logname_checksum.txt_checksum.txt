@@ -1,1 +1,0 @@
-3e179368775b375687d1711dfbeebe47d8044acda08500484887fd5e6ac40b37  arm64/logname_checksum.txt

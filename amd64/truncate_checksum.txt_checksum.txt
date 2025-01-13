@@ -1,1 +1,0 @@
-751dc1752b93f2a549cd3b84f757ee1cff0e5f9801a21ca52fe4aa1a08f89b98  amd64/truncate_checksum.txt

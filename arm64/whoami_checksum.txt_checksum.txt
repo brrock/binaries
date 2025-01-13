@@ -1,1 +1,0 @@
-93c1e29d5115e2cd57f75bb6856872fed454dd1756072d1bae8bc8459b22a32e  arm64/whoami_checksum.txt

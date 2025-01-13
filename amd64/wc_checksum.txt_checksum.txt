@@ -1,1 +1,0 @@
-284642c3d5c05689fa4365733d27b94ccac253f085f675afba1a8a7d71b490ce  amd64/wc_checksum.txt

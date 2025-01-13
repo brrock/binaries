@@ -1,1 +1,0 @@
-f109d0f3008b73d6092a45e9fcb8b0832f80fb90d1fa6a850934b6bad2486ce7  amd64/mkfifo_checksum.txt

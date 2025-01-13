@@ -1,1 +1,0 @@
-6c7ec12af2dadd94241788ada882a162bc2ccc1b5946ca7ab3bb61acc0207aa4  arm64/sync_checksum.txt

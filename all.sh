@@ -19,10 +19,9 @@ echo "All scripts have been executed."
 echo "Generating checksums" 
 for dir in "${directories[@]}"; do
   for file in "$dir"/*; do
-    if [ -f "$file" ]; then
+    if [ -f "$file" ] && [[ "$file" != *.txt ]]; then
       # Generate the checksum and save it to [file]_checksum.txt
       sha256sum "$file" > "$file"_checksum.txt
-      
     fi
   done
 done

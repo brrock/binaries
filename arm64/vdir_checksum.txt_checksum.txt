@@ -1,1 +1,0 @@
-e158c70a5b4c6579dc95a20d0e405fd2443a29d6f8f616ff9ca46ac6e2dd0e63  arm64/vdir_checksum.txt

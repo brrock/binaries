@@ -1,1 +1,0 @@
-348799f1c99dba751e04cd08e5e18b78afc81b9db9e4208c1f1d4d43067f12d8  arm64/touch_checksum.txt

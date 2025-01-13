@@ -1,1 +1,0 @@
-6187cffabe35aff310119385dadc159ff4bfdbb86b4d177f8356fbfc02175628  arm64/split_checksum.txt

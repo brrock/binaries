@@ -1,1 +1,0 @@
-6d1011cc3eae6ad4be21447e5f150086af86352be2598538a80d16b2015f9b22  arm64/mkdir_checksum.txt

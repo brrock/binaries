@@ -1,1 +1,0 @@
-8b03547ec9f4d57ecaefac191d4c77c9fc03cf2ab4059c0a794355adb6cd4996  amd64/logname_checksum.txt
